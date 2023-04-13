@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Hyperf\Snowflake\MetaGenerator;
 
 use Hyperf\Contract\ConfigInterface;
-use Hyperf\Coroutine\Locker;
+use Hyperf\Utils\Coroutine\Locker;
 use Hyperf\Redis\RedisProxy;
 use Hyperf\Snowflake\ConfigurationInterface;
 use Hyperf\Snowflake\MetaGenerator;
